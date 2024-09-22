@@ -193,6 +193,8 @@ def main():
         gt_path.append((gt_pose[0, 3], gt_pose[2, 3]))
         estimated_path.append((current_pose[0, 3], current_pose[2, 3]))
 
+    cv2.destroyAllWindows()
+
     from utils.plotting import visualize_paths
     visualize_paths(
         gt_path,
