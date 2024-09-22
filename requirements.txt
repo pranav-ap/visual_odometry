@@ -1,0 +1,8 @@
+jupyter
+numpy
+matplotlib
+seaborn
+opencv-python
+tqdm
+bokeh
+scikit-learn
